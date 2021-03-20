@@ -1,0 +1,20 @@
+#content {
+  background-color: rgb(228, 192, 51);
+  height: 500px;
+  right: 100px;
+  display: flex;
+  flex-direction: column-reverse;
+} 
+
+.item {
+  height: 150px;
+  width: 200px;
+  color: black;
+  margin: spx;
+  background-color: white;
+  border: 1px color violet;
+
+
+}
+
+ 

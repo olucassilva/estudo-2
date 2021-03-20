@@ -1,0 +1,41 @@
+.pai {
+  width: 500px;
+  height: 200px;
+  background-color: green;
+}
+
+.filho1 {
+  width: 200px;
+  height: 50px; 
+  background-color: black;
+}
+
+.filho2 {
+  background-color: brown;
+  width: 200px;
+  height: 50px;
+  border-color: 5px solid white;
+}
+
+.chu2 {
+  width: 500px;
+  height: 200px;
+  background-color:yellow;
+}
+.chuu {
+  width: 200px;
+  height: 50px; 
+  background-color: black;
+}
+
+.chuuu {
+  background-color: brown;
+  width: 200px;
+  height: 50px;
+}
+.chuuuu {
+  background-color: pink; 
+  width: 200px;
+  height: 50px;
+}
+}
