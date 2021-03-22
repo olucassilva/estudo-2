@@ -1,21 +1,13 @@
 #content {
-  background-color: rgb(228, 192, 51);
-  height: 500px;
-  right: 100px;
-  display: flex;
-  flex-direction:column;
-  
-} 
-
-.item {
-  height: 150px;
-  width: 200px;
-  color: black;
-  margin: spx;
-  background-color: white;
-  border: 1px solid color black;
-
+  width: 1280px;
+  margin:auto
 
 }
 
- 
+.cabeçalho {
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(226, 241, 16);
+  width: 1280px;
+  height: 100px;
+}
