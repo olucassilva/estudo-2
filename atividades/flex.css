@@ -1,0 +1,33 @@
+.div_pai {
+  height: 300px; /*largura*/
+  display: flex;
+  justify-content: space-between;
+  /*justify content serve 
+  para colocar as coisas na horizontal*/
+  background-color: blue;
+  align-items: center;
+  /*align -items serve para alinhar na vertical*/
+}
+
+.div_filha {
+  background-color: yellow;
+
+
+}
+.conteudo {
+  width: 800px; 
+  height: 400px;
+  background-color: yellow;
+  margin :auto;
+  display: flex;
+}
+
+.lateral {
+  background-color: tomato;
+  width: 200px;
+}
+.corpo {
+  background-color: rgb(27, 24, 24);
+  width: 600px;
+}
+  

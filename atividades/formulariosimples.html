@@ -3,65 +3,72 @@
 
 <head>
   <title>Formulario Simples</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.m
-  in.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
   <link rel="stylesheet" href="./formulariosimples.css">
+  <!--link rel sempre usar stylesheet antes
+     e depois usar HREF: (LINK) LINKANDO O CAMINHO DO CSS OU HTML-->
 </head>
 
 <body style="background-color: aqua;">
-  <div class="div">
-    <div><h1>Formulário</h1></div>
-    Nome<br>
-    <input placeholder="colocar seu nome Aqui" name=nome type="text">
-  </div>
-  <div class="div">
+  <form action="https://mauriciosoares.github.io/curso-programacao/aula-5/action.html">
+   <div class="div">
+    <div>
+      <h1>Formulário</h1>
+    </div>
+    Nome<br> <!--nome-->
+    <input placeholder="colocar seu nome Aqui" name="nome" type="text">
+    </div>
+    <div class="div">
     Email<br>
-    <input type="text" nome=>
-  </div>
-  <div class="div">
+    <input type="email" name="Email">
+   </div>
+    <div class="div">
     Senha<br>
     <input type="password">
-  </div>
-  <div class="div">
+    </div>
+    <div class="div">
     Cidade
     <select name="Itupeva">
       <option>Itupeva</option>
       <option>Cabreuva</option>
-      <option>Sao Paulo</option>
+      <option value="Sao Paulo">Sao Paulo</option>
     </select>
-  </div>
-  <div class="div">
+    </div>
+    <div class="div">
     <B>Gosto Musical</B><br>
-    <input type="checkbox">Rock
-    <input type="checkbox">Pop
-    <input type="checkbox">Blues
-    <input type="checkbox">outras
-  </div>
-  <div class="div">
+    <input type="checkbox"name="genero Musical" value="rock">Rock 
+    <input type="checkbox"name="genero Musical"value="pop">Pop 
+    <!--value -->
+    <input type="checkbox"name="genero musical"value="Blues">Blues 
+    <input type="checkbox"name="genero musical"value="outras">outras 
+   </div>
+   <div class="div">
     Serie Favorita<br>
-    <input type="text" nome=>
-  </div>
-  <div class="div">
+    <input type="text"name="Serie_favorita">
+    </div>
+    <div class="div">
     Sexo <br>
-    <input type="radio">Masculino
-    <input type="radio">Feminino
-  </div>
-  <div class="div">
+
+    <input type="radio" name="sexo" value="M">Masculino
+    <input type="radio" name="sexo" value="F">Feminino
+    </div>
+    <div class="div">
     Cor Favorita<br>
-    <input type="color">
-  </div>
-  <div class="div">
+    <input type="color" name="cor">cor
+    </div>
+    <div class="div">
     Aniversário<br>
-    <input type="date">
-  </div>
-  <div class="div">
+    <input type="date" name="Data">
+    </div>
+    <div class="div">
     <button type="submit">
       Enviar formulário
     </button>
     <button type="reset">
       Limpar Formulário
     </button>
-  </div>
+    </div>
+  </form>
 </body>
 
 </html>
