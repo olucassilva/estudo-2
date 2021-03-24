@@ -1,0 +1,51 @@
+
+.divcabeçalho {
+  background-color: yellow;
+  width: 1000px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.empresalegal {
+  padding-left: 60px;
+}
+.home {
+  padding-right: 60px;
+}
+
+.divbody {
+ background-color: cadetblue;
+ width: 1000px;
+ /*width é comprimento*/
+ height: 150px;
+ /*height é largura*/
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin:auto;
+ 
+}
+.lateral {
+  width: 200px;
+  padding-left: 60px;
+}
+
+.divtexto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  text-align:center;
+}
+.divcriador {
+background-color:darkgray;
+width: 1000px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+}
