@@ -1,0 +1,46 @@
+.topo {
+  width: 800px;
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.Empresa {
+  margin-left: 60px;
+  
+}
+  .home{
+margin-right: 60px;
+  }
+
+  .corpo {
+    width: 800px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+  }
+  .texto {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  text-align:center;
+  }
+  .lateral {
+    width: 200px;
+    padding-left: 60px;
+  }
+  .rodape {
+    background-color:darkgray;
+    width: 800px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
