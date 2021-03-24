@@ -25,15 +25,25 @@ margin-right: 60px;
     background-color: cadetblue;
   }
   .texto {
-    display: flex;
+    /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   margin:auto;
   text-align:center;
+  }
+  .l100 {
+    width: 1000px;
+    height: 1000px;
+    /* border-radius: 50%; */
+    background-image: url(https://placehold.it/200x200);
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-size:unset;
   }
   .lateral {
     width: 200px;
     padding-left: 60px;
+    display: block;
   }
   .rodape {
     background-color:darkgray;
@@ -44,3 +54,26 @@ margin-right: 60px;
     align-items: center;
     margin: auto;
   }
+
+  .link {
+    color:rgb(0, 255, 128);
+  }
+
+  .link:hover {
+    /* muda de cor quando pass o mouse por cima*/
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .topo:hover {
+    background-color: sienna;
+  }
+  a {
+    color: paleturquoise;
+  }
+  .lateral a {
+    color: rgb(179, 167, 167);
+  }
+   .topo a {
+     color: red;
+   }
