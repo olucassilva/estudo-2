@@ -1,18 +1,26 @@
 .cabeçario {
   margin: auto;
   text-align: center;
+  font-family:'Courier New', Courier, monospace;
 }
 
+.yoga {
+  color:white;
+}
+
+
 .barra {
+  display: flex;
+  justify-content: center;
   font-size: 30px;
   font-family: 'Courier New', Courier, monospace;
-  display: flex;
-  justify-content:space-evenly;
-
+  color: #21a51e;
+  margin: auto;
+  text-align:end;
 }
 .centro {
   width: 880px;
-  margin: 1px;
+  margin:auto;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -21,7 +29,14 @@
 }
 
 .texto {
-  
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:'Courier New', Courier, monospace;
+  color: #21a51e;
+  text-align: center;
+}
+
+.rodape {
 
 }
+ .city {
+   font-size: 20px;
+ }
