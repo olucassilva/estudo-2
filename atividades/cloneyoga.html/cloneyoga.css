@@ -22,16 +22,42 @@
   padding-right: 100px;
 }
 .centro {
-  width: 900px;
+  width: 1000px;
+  margin:auto;
+  padding-top: 10%;
+  text-align: center;
+  background-color: white;
+  display: flex;
+  justify-content: start;
+  font-size: 90px;
+  color: #21a51e;
+}
+.centrooo {
+  padding: 10px;
+  width: 1000px;
   margin:auto;
   background-color: white;
   display: flex;
-  justify-content:center;
-  font-size: 90px;
-  text-align: left;
-  color: #21a51e;
-  font-style:inherit;
+  justify-content: center;
+
 }
+#body form input#send {
+  background-color: green;
+  border-top: initial;
+  
+}
+  
+.send:hover {
+  background-color: violet;
+
+}
+
+
+  .for {
+    display: flex;
+    justify-content: start;
+  }
+
 .centr {
   width: 900px;
   margin:auto;
@@ -43,18 +69,12 @@
   font-style:inherit;
   
 }
-/*.roxa {
-  width: 400px;
-  height: 20px;
-  background-color: blueviolet;
-  display: flex;
-  justify-content: center;
-}*/
-
 .texto {
   font-family:'Courier New', Courier, monospace;
   color: #21a51e;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .text {
   font-family:'Courier New', Courier, monospace;
@@ -66,11 +86,10 @@
   color: #315f52;
   text-align: center;
 }
-}
-
 
 .rodape {
- width: 400px;
+ width: 1000px;
+ height: 100px;
  display: flex;
 justify-content: center;
 margin: auto;
@@ -79,6 +98,8 @@ margin: auto;
  .city {
    font-size: 20px;
    color: #21a51e;
+   display: flex;
+   justify-content: left;
    
    
  }
