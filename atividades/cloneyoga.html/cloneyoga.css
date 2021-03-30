@@ -9,6 +9,11 @@
 .yoga {
   color:white;
 }
+.contato {
+  font-size: 50px;
+  text-align: left;
+  color: #21a51e;
+}
 
 .barra {
   display:flex;
@@ -22,7 +27,11 @@
   padding-right: 100px;
 }
 .centro {
-  width: 1000px;
+  width: 900px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 100px;
   margin:auto;
   padding-top: 10%;
   text-align: center;
@@ -33,7 +42,10 @@
   color: #21a51e;
 }
 .centrooo {
-  padding: 10px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 100px;
   width: 1000px;
   margin:auto;
   background-color: white;
@@ -41,18 +53,11 @@
   justify-content: center;
 
 }
-#body form input#send {
-  background-color: green;
-  border-top: initial;
-  
+.contato {
+  display: flex;
+  justify-content:right;
+ text-align: left;
 }
-  
-.send:hover {
-  background-color: violet;
-
-}
-
-
   .for {
     display: flex;
     justify-content: start;
@@ -61,6 +66,10 @@
 .centr {
   width: 900px;
   margin:auto;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 100px;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -96,16 +105,20 @@ margin: auto;
    
 }
  .city {
-   font-size: 20px;
+   font-size: 23px;
    color: #21a51e;
    display: flex;
-   justify-content: left;
-   
+   text-align: left;
+   padding-top: 30px;
+   padding-right: 100px;
    
  }
 .link  {
   color: #21a51e;
 }
  .link:hover {
-   background-color: darkmagenta;
+   background-color: rgb(180, 166, 180);
+   color: rgb(227, 116, 241);
+    font-weight: bold;
+    font-size: 30px;
  }

@@ -63,7 +63,7 @@ margin-right: 60px;
     /* muda de cor quando pass o mouse por cima*/
     color: blue;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 50px;
   }
   .topo:hover {
     background-color: sienna;
