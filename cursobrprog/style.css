@@ -3,3 +3,34 @@
   height: 1px;
   background-color: black;
  }
+
+ #ensino
+ {
+   text-align: center;
+   height: 400px;
+   color: black;
+   background-color: yellow;
+   background-image: url(./imagens/fundo.jpeg)
+ }
+
+ body{
+   background-image: url(./imagens/fundo.jpeg);
+ }
+
+ .cm {
+   background-color: black;
+   width :1cm;
+   height: 1cm;
+ }
+
+ #base {
+   height: 10px;
+   background-color: chartreuse;
+ }
+
+ #container {
+   background-color: darkblue;
+   height: 10px
+   color: white;
+   margin-top: 30px;
+ }
