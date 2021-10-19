@@ -1,0 +1,20 @@
+.borda {
+
+  border-width: 5px;
+  border-style: solid;
+  border-color: violet;
+  border-radius: 17px;
+}
+
+.borda2 {
+  border: 05px solid red;
+
+}
+
+.quadrado {
+
+  width: 100px;
+  height: 100px;
+  background-color: yellowgreen;
+  border-radius: 20%;
+}
