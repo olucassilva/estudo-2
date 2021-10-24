@@ -59,18 +59,29 @@ background-color: blue;
 font-weight: bold;
 }
  footer {
-  
+   background-color: rgb(104, 102, 104);
    color: white;
-   text-align: center;
-   float:inline-end;
- }
-
- .picture {
-   width: 150px;
-   height: 175px
+   padding: 40px;
    
  }
 
+ .picture {
+   width: 160px;
+  
+   
+ }
+ .description {
+   color:white;
+   display: inline-block;
+   width: 40%;
+   margin-left: 40px;
+ }
+ .description p, .description h3 {
+   margin-bottom: 20px;
+ }
+ .description h3 {
+   margin-bottom: 20px;
+ }
  select{
    appearance: none;
    -webkit-appearance: none;
