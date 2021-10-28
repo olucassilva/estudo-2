@@ -57,6 +57,19 @@ body {
 
 }
 
+#taglineabout {
+  background-color: #fcfcfc;
+  margin:0px 125px;
+  display: flex;
+  font-size: 35px;
+  font-family:nixie_oneregular;
+  padding-top: 10px;
+  padding-bottom: 80px;
+  color: #315f52;
+  text-decoration: white;
+  
+}
+
 
 #footer {
   text-align:left;
@@ -68,12 +81,41 @@ body {
 
 }
 span {
-
-  font-size: 40px;
+  
+  font-size: 30px;
+  
 }
   #connect {
     margin: 10px;
   }
-  
+  .About {
+    margin-top: 40px;
+  color: #315f52;
+  text-align: left;
+  margin-left: 50px ;
+  font-size: 40px;
+  }
 
+  .subtitulo {
+    color:#315f52;
+  text-align: left;
+  margin-left: 50px ;
+  font-size: 40px;
   
+  }
+
+
+p {
+  font-size: 14px;
+  color: #315f52;
+  text-align: left;
+  margin-left: 50px ;
+  
+}
+
+.footer {
+  color: #21a51e;
+  font-size: 15px;
+  text-decoration: white;
+  text-align: left;
+}
