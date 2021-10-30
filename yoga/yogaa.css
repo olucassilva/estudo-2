@@ -63,11 +63,21 @@ body {
   display: flex;
   font-size: 35px;
   font-family:nixie_oneregular;
-  padding-top: 10px;
-  padding-bottom: 80px;
+  color:#21a51e;
+  text-decoration: white;
+  padding: 10px;
+ 
+
+}
+#taglineclass {
+  background-color: #fcfcfc;
+  margin:0px 125px;
+  display: flex;
+  font-size: 35px;
+  font-family:nixie_oneregular;
   color: #315f52;
   text-decoration: white;
-  
+  padding: 10px;
 }
 
 
@@ -113,6 +123,11 @@ p {
   
 }
 
+.hora {
+  padding-left: 50px;
+  font-size: 15px
+
+}
 .footer {
   color: #21a51e;
   font-size: 15px;
