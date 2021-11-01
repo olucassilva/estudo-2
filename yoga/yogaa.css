@@ -57,6 +57,17 @@ body {
   
 }
 
+#campo {
+  background-color: white;
+  color:#077054;
+  max-width: 880px;
+  min-height: 827px;
+  padding: 45px 40px 46px;
+  margin-left: 150px;
+  display: flex;
+  justify-content:center;
+} 
+
 #tagline {
   text-align:center;
   background-color: #fcfcfc;
@@ -100,7 +111,7 @@ body {
   text-align:left;
   margin-left: 125px;
    margin-top: 30px; 
-   margin:40px 125px 0px 125px;
+   margin:40px 150px 0px 150px;
   display: flex;
   justify-content: space-between;
 
@@ -143,6 +154,7 @@ p {
   font-size: 15px;
   text-decoration: white;
   text-align: left;
+  font-family: 'latoregular';
 }
 
 #section {
@@ -151,3 +163,28 @@ p {
   overflow:hidden ;
 
 }
+
+ form input#send {
+  background: #077054;
+  border: none;
+  border-radius: 5px;
+  color: #99fa99;
+  cursor: pointer;
+  font-family: 'latoregular';
+  font-size: 14px;
+  float: right;
+  height: 30px;
+  margin: 8px 0 0;
+  width: 50px; 
+  
+  }
+
+ #send:hover {
+   color:white;
+   background-color:rgb(192, 113, 192) ;
+ }
+
+ li:hover {
+  color:white;
+  background-color:rgb(192, 113, 192) ;
+ }
