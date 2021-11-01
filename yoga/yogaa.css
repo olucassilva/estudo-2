@@ -40,8 +40,21 @@ li a hover {
    /* NOVO MODELO DE MENU */
 
 body {
-  color: #d9e6e2;
-  background-color: #077054;;
+  color: white;
+  background-color: #077054;
+  font-size: 20px;
+ 
+}
+#corpo {
+  background-color: white;
+  color:#077054;
+  max-width: 880px;
+  min-height: 827px;
+  padding: 45px 40px 46px;
+  margin-left: 150px;
+  display: flex;
+  justify-content:center;
+  
 }
 
 #tagline {
@@ -53,9 +66,11 @@ body {
   font-family:nixie_oneregular;
   padding-top: 90px;
   padding-bottom: 190px;
-  color: #21a51e;
-
+  color: #077054;
+  
 }
+  
+
 
 #taglineabout {
   background-color: #fcfcfc;
@@ -123,14 +138,16 @@ p {
   
 }
 
-.hora {
-  padding-left: 50px;
-  font-size: 15px
-
-}
 .footer {
   color: #21a51e;
   font-size: 15px;
   text-decoration: white;
   text-align: left;
+}
+
+#section {
+  float: left;
+  list-style: none;
+  overflow:hidden ;
+
 }
