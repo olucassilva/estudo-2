@@ -43,6 +43,7 @@ body {
   color: white;
   background-color: #077054;
   font-size: 20px;
+
  
 }
 #corpo {
@@ -57,6 +58,7 @@ body {
   
 }
 
+
 #campo {
   background-color: white;
   color:#077054;
@@ -67,6 +69,10 @@ body {
   display: flex;
   justify-content:center;
 } 
+
+
+
+
 
 #tagline {
   text-align:center;
@@ -80,8 +86,6 @@ body {
   color: #077054;
   
 }
-  
-
 
 #taglineabout {
   background-color: #fcfcfc;
@@ -104,6 +108,29 @@ body {
   color: #315f52;
   text-decoration: white;
   padding: 10px;
+}
+
+#taglineblog {
+   
+    background-color: #fcfcfc;
+    margin:0px 125px;
+    display: block;
+    font-size: 35px;
+    font-family:nixie_oneregular;
+    padding-left: 60px;
+    padding-top: 90px;
+    padding-bottom: 70px;
+    color: #077054;
+    
+}
+ 
+#i1 {
+  float: left;
+}
+
+a:hover {
+  color: #077054;
+  text-decoration: none;
 }
 
 
@@ -142,8 +169,8 @@ span {
 
 
 p {
-  font-size: 14px;
-  color: #315f52;
+  font-size: 17px;
+  color: #077054;
   text-align: left;
   margin-left: 50px ;
   
