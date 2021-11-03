@@ -53,11 +53,17 @@ body {
   min-height: 827px;
   padding: 45px 40px 46px;
   margin-left: 150px;
-  display: flex;
-  justify-content:center;
-  
+  display:grid;
 }
+  
 
+
+.ft4 {
+  width: 900px;
+  height: 900px;
+  border: 1px solid black;
+  display:grid;
+}
 
 #campo {
   background-color: white;
@@ -123,7 +129,26 @@ body {
     color: #077054;
     
 }
+ #taglineblog2 {
+  background-color: #fcfcfc;
+  margin-left: 160px;
+  margin-right: 160px;
+  font-size: 25px;
+  font-family:nixie_oneregular;
+  padding-left: 60px;
+  padding-top: 90px;
+  color: #077054;
+  
+ }
  
+ #lateral {
+   font-size: 30px;
+  float: right;
+  width: 250px;
+  border: solid 1px black;
+   
+ }
+
 #i1 {
   float: left;
 }
@@ -187,13 +212,6 @@ p {
   text-align: left;
   margin-left: 50px ;
   
-}
-
-#section {
-  float: left;
-  list-style: none;
-  overflow:hidden ;
-
 }
 
  form input#send {
