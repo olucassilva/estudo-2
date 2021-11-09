@@ -107,3 +107,21 @@ switch (conceito) {
 }
 
 */
+
+
+
+var aluno = {
+  nome: "igor"
+  notas: [5, 8],
+
+  media: function (n1, n2) {
+      return (n1 + n2) / 2;
+  }
+     
+  
+
+}
+ 
+console.lo(aluno.nome)
+
+
