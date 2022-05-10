@@ -7,7 +7,8 @@ header {
 
 .menu{
   list-style: none;
-  padding: 10px;
+  padding: 30px;
+  margin: auto;
 
   float: left;
 }
@@ -49,11 +50,19 @@ li a:hover {
     /* body home */
     
     .galery {
-      background: url('./images/bg-home.jpg') ;
+     background: url('./images/bg-home.jpg') ;
       width: auto;
-      height: 900px;
+      height: auto;
     }
 
+    #satellite {
+      margin-left: 200px;
+      padding-top: 100px;
+    }
   
+    #texto {
+      font-size: 25pt;
+      margin-left: 500pt;
+      margin-top: -200px;
       
-  
+    }
